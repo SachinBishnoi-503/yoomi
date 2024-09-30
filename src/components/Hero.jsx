@@ -16,7 +16,7 @@ const Hero = () => {
     <div className='bg-hero-image bg-no-repeat bg-cover bg-center min-h-[828px] pt-[129px]'>
       <div className='container'>
         <div className='flex justify-center items-center flex-col '>
-          <h1 className='font-plus font-semibold leading-custom-2xl text-custom-2xl text-center text-black max-w-[838px]'><span className='font-extrabold'>Next Generation</span> Patient Engagement and RTM Solution✨</h1>
+          <h1 className='font-plus font-normal leading-custom-2xl text-custom-2xl text-center text-black max-w-[838px]'><span className='!font-extrabold'>Next Generation</span> Patient Engagement and RTM Solution✨</h1>
           <p className='font-inter font-normal text-2xl text-black opacity-70 mt-2'>Industry leading AI motion-tracking technology</p>
           <form id='fromEmail' onSubmit={handleSubmit} method="get" className='max-w-[428px] mx-auto w-full p-1.5 bg-white rounded flex justify-between items-center mt-7 lg:mt-14 shadow-3xl'>
             <input

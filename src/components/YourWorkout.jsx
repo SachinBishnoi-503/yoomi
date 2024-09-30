@@ -1,8 +1,15 @@
 import React from 'react'
-
+import Workout from '../assets/images/webp/workout-image.webp'
+ 
 const YourWorkout = () => {
   return (
-    <div>YourWorkout</div>
+    <div className='mt-[-110px]'>
+      <div className='container'>
+        <div className='flex justify-center items-center'>
+          <img src={Workout} alt="workout-image-not-found" />
+        </div>
+      </div>
+    </div>
   )
 }
 
