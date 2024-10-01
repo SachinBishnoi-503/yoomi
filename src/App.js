@@ -1,9 +1,11 @@
 import './App.css';
 import AmazingFeatures from './components/AmazingFeatures';
+import BiggestFigures from './components/BiggestFigures';
 import Header from './components/Header';
 import Healthcare from './components/Healthcare';
 import Hero from './components/Hero';
 import MotionTracking from './components/MotionTracking';
+import Newsletter from './components/Newsletter';
 import OurPlatform from './components/OurPlatform';
 import ReportingAnalytics from './components/ReportingAnalytics';
 import YourWorkout from './components/YourWorkout';
@@ -19,6 +21,8 @@ function App() {
       <ReportingAnalytics />
       <OurPlatform />
       <Healthcare />
+      <BiggestFigures />
+      <Newsletter/>
     </>
   );
 }
