@@ -26,7 +26,7 @@ const AmazingFeatures = () => {
         <div className='w-full pb-[60px] p-[0px_0px_0px_30px] shadow-4xl flex gap-10 justify-between mt-[61px] rounded-[32px]'>
           <div className='max-w-[468px]'>
             <h3 className='font-inter font-medium text-deep-blue text-base leading-5'>Library</h3>
-            <h2 className='font-normal leading-custom-lg text-custom-lg text-black mt-2'>
+            <h2 className='font-normal font-plus leading-custom-lg text-custom-lg text-black mt-2'>
               Extensive Exercise <span className='!font-semibold'>Library</span>
             </h2>
             <div className='mt-[21px]'>

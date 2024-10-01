@@ -14,37 +14,39 @@ const Header = () => {
     setData((prevData) => !prevData);
   }
   return (
-    <div className=" max-w-[1162px] px-3 mx-auto ">
-      <div className="pt-8 flex justify-between items-center">
-        <img src={pagelogo} alt="logo" />
+    <div className="bg-background">
+      <div className="container">
+        <div className="pt-8 flex justify-between items-center">
+          <img src={pagelogo} alt="logo" />
 
-        <div
-          className={`${data ? "right-0" : "right-[-100%]"
-            } flex gap-7 items-center justify-between z-[50] max-md:gap-[26px] max-md:fixed max-md:bg-white max-md:w-full max-md:h-full max-xl:top-0 max-md:flex-col max-md:justify-center duration-300`}
-        >
-          <div className=" flex gap-11 max-md:flex-col max-md:items-center">
+          <div
+            className={`${data ? "right-0" : "right-[-100%]"
+              } flex gap-7 items-center justify-between z-[50] max-md:gap-[26px] max-md:fixed max-md:bg-white max-md:w-full max-md:h-full max-xl:top-0 max-md:flex-col max-md:justify-center duration-300`}
+          >
+            <div className=" flex gap-11 max-md:flex-col max-md:items-center">
 
 
-            <ul className=" flex gap-11 max-md:flex-col max-md:items-center">
-              <a href="/" className=" font-inter z-10 font-medium text-lg leading-5 text-black ease-linear after:absolute after:bg-black after:h-[3px] after:w-0 after:left-[50%] after:translate-x-[-50%] hover:after:w-full after:bottom-[-5px] after:rounded after:duration-300 after:ease-linear after:mx-auto relative">About Us</a>
-              <a href="/" className=" font-inter z-10 font-medium text-lg leading-5 text-black ease-linear after:absolute after:bg-black after:h-[3px] after:w-0 after:left-[50%] after:translate-x-[-50%] hover:after:w-full after:bottom-[-5px] after:rounded after:duration-300 after:ease-linear after:mx-auto relative">News</a>
-              <a href="/" className=" font-inter z-10 font-medium text-lg leading-5 text-black ease-linear after:absolute after:bg-black after:h-[3px] after:w-0 after:left-[50%] after:translate-x-[-50%] hover:after:w-full after:bottom-[-5px] after:rounded after:duration-300 after:ease-linear after:mx-auto relative">Contact Us</a>
-            </ul>
+              <ul className=" flex gap-11 max-md:flex-col max-md:items-center">
+                <a href="/" className=" font-inter z-10 font-medium text-lg leading-5 text-black ease-linear after:absolute after:bg-black after:h-[3px] after:w-0 after:left-[50%] after:translate-x-[-50%] hover:after:w-full after:bottom-[-5px] after:rounded after:duration-300 after:ease-linear after:mx-auto relative">About Us</a>
+                <a href="/" className=" font-inter z-10 font-medium text-lg leading-5 text-black ease-linear after:absolute after:bg-black after:h-[3px] after:w-0 after:left-[50%] after:translate-x-[-50%] hover:after:w-full after:bottom-[-5px] after:rounded after:duration-300 after:ease-linear after:mx-auto relative">News</a>
+                <a href="/" className=" font-inter z-10 font-medium text-lg leading-5 text-black ease-linear after:absolute after:bg-black after:h-[3px] after:w-0 after:left-[50%] after:translate-x-[-50%] hover:after:w-full after:bottom-[-5px] after:rounded after:duration-300 after:ease-linear after:mx-auto relative">Contact Us</a>
+              </ul>
 
+            </div>
+            <CommonButton button="Get Started" />
           </div>
-          <CommonButton button="Get Started" />
-        </div>
-        <div
-          onClick={VIEW}
-          className={` ${data ? "cross " : ""
-            } md:hidden cursor-pointer block z-50`}
-        >
-          <span className="bar h-[3px] block cursor-pointer bg-black w-[25px] duration_300"></span>
-          <span className="bar h-[3px] block cursor-pointer bg-black w-[25px] my-[6px]"></span>
-          <span className="bar h-[3px] block cursor-pointer bg-black w-[25px] duration_300"></span>
+          <div
+            onClick={VIEW}
+            className={` ${data ? "cross " : ""
+              } md:hidden cursor-pointer block z-50`}
+          >
+            <span className="bar h-[3px] block cursor-pointer bg-black w-[25px] duration_300"></span>
+            <span className="bar h-[3px] block cursor-pointer bg-black w-[25px] my-[6px]"></span>
+            <span className="bar h-[3px] block cursor-pointer bg-black w-[25px] duration_300"></span>
+          </div>
         </div>
       </div>
-    </div>
+   </div>
   );
 };
 

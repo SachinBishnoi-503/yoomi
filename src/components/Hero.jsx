@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import CommonButton from './common/CommonButton'
-
+ 
 const Hero = () => {
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
