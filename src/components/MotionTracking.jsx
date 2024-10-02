@@ -4,10 +4,11 @@ import workout2 from '../assets/images/webp/tracking-three-image.webp'
 import workout3 from '../assets/images/webp/tracking-wrokout1.webp'
 import correct from '../assets/images/webp/nike-image.webp'
 import CommonButton from './common/CommonButton'
+import motionellipse from '../assets/images/webp/tracking-ellipse.webp'
 
 const MotionTracking = () => {
   return (
-    <div>
+    <div className='relative'>
       <div className='container'>
         <div className='w-full p-[57px_28px_58px_33px] shadow-4xl rounded-[32px] flex justify-between items-center'>
           <div className='w-[552px] h-[329px] relative '>
@@ -41,6 +42,7 @@ const MotionTracking = () => {
           </div>
         </div>
       </div>
+      <img src={motionellipse} alt="motion-tracking-not-found" className='absolute right-0 bottom-[-25%]' />
     </div>
   )
 }

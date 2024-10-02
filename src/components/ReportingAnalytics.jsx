@@ -3,12 +3,12 @@ import CommonButton from './common/CommonButton'
 import table from '../assets/images/webp/reporting-table.webp'
 import weeektable from '../assets/images/webp/week-table-img.webp'
 import satutsweekend from '../assets/images/webp/status-img.webp'
-
+import reportingellipse from '../assets/images/webp/reporting-ellipse.webp'
 const ReportingAnalytics = () => {
   return (
     <div className='mt-[97px] pb-[96px]'>
       <div className='container'>
-        <div className='w-full p-[48px_37px_47px_34px] shadow-4xl flex justify-between rounded-[32px] items-center'>
+        <div className='w-full p-[48px_37px_47px_34px] shadow-4xl flex justify-between rounded-[32px] items-center relative'>
           <div className='w-[404px] h-[218px]'>
             <h2 className='font-inter font-medium text-base leading-5 text-deep-blue'>REPORT</h2>
             <h2 className='font-normal text-custom-lg leading-9 font-plus text-black mt-2'>Reporting + <span className='font-semibold'>Analytics</span></h2>
@@ -20,6 +20,7 @@ const ReportingAnalytics = () => {
               <img src={weeektable } alt="reporting-images-not-found" className='absolute bottom-[-3px] right-6' />
               <img src={satutsweekend} alt="reporting-images-not-found" className='absolute top-[-33px] left-[-24px] min-h-[141px] max-w-[282px]' />
           </div>
+          <img src={reportingellipse} alt="reporting-ellipse-not-found" className='left-0 bottom-0 absolute' />
         </div>
       </div>
     </div>

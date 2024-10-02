@@ -33,7 +33,7 @@ const Header = () => {
               </ul>
 
             </div>
-            <CommonButton button="Get Started" />
+            <CommonButton button="Get Started" className='!rounded-[4px]' />
           </div>
           <div
             onClick={VIEW}

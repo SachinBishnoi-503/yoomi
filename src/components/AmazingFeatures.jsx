@@ -9,12 +9,13 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import swipernext from '../assets/images/svg/slider-next.svg';
 import swiperback from '../assets/images/svg/slider-back.svg';
+import ellipseamazing from '../assets/images/webp/amazing-ellipse.webp'
 
 const AmazingFeatures = () => {
   return (
-    <div className='pt-[125px] pb-[97px]'>
+    <div className='pt-[125px] pb-[97px] relative'>
       <div className='container'>
-        <div className='flex flex-col justify-center items-center pb-[55px]'>
+        <div className='flex flex-col justify-center items-center pb-[116px]'>
           <h6 className='font-inter font-medium leading-4 text-deep-blue text-base'>Features</h6>
           <h2 className='font-normal text-black text-custom-xl leading-custom-xl font-plus mt-2'>
             Explore Our <span className='font-semibold'>Amazing Features</span>
@@ -23,7 +24,7 @@ const AmazingFeatures = () => {
             Yoomi is more than just a regular remote monitoring solution. Our product supports patients and providers through every step of the rehabilitation process.
           </p>
         </div>
-        <div className='w-full pb-[60px] p-[0px_0px_0px_30px] shadow-4xl flex gap-10 justify-between mt-[61px] rounded-[32px]'>
+        <div className='w-full pb-[60px] p-[0px_0px_0px_30px] shadow-4xl flex gap-10 justify-between rounded-[32px]'>
           <div className='max-w-[468px]'>
             <h3 className='font-inter font-medium text-deep-blue text-base leading-5'>Library</h3>
             <h2 className='font-normal font-plus leading-custom-lg text-custom-lg text-black mt-2'>
@@ -74,6 +75,7 @@ const AmazingFeatures = () => {
           </div>
         </div>
       </div>
+      <img src={ellipseamazing} alt="amazing-ellipse-not-found" className='absolute left-0 bottom-0' />
     </div>
   );
 };

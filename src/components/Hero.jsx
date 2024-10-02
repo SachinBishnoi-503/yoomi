@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import CommonButton from './common/CommonButton'
- 
+import Header from '../components/Header'
+  
 const Hero = () => {
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -13,9 +14,10 @@ const Hero = () => {
     }, 3000);
   };
   return (
-    <div className='bg-hero-image bg-no-repeat bg-cover bg-center min-h-[828px] pt-[129px]'>
+    <div className='bg-hero-image bg-no-repeat bg-cover bg-center min-h-[828px]'>
+      <Header />
       <div className='container'>
-        <div className='flex justify-center items-center flex-col '>
+        <div className='flex justify-center items-center flex-col pt-[126px] '>
           <h1 className='font-plus font-normal leading-custom-2xl text-custom-2xl text-center text-black max-w-[838px]'><span className='!font-extrabold'>Next Generation</span> Patient Engagement and RTM Solution✨</h1>
           <p className='font-inter font-normal text-2xl text-black opacity-70 mt-2'>Industry leading AI motion-tracking technology</p>
           <form id='fromEmail' onSubmit={handleSubmit} method="get" className='max-w-[428px] mx-auto w-full p-1.5 bg-white rounded flex justify-between items-center mt-7 lg:mt-14 shadow-3xl'>
@@ -27,7 +29,7 @@ const Hero = () => {
               onChange={(e) => setEmail(e.target.value)}
               required
             />
-            <CommonButton button='Get Started' />
+            <CommonButton button='Get Started' className='!rounded-[4px]' />
           </form>
           <div className={`w-[200px] z-50 place-items-center transition_slow h-12 bg-white shadow-3xl fixed bottom-10 flex justify-center items-center ${isSubmitted ? "right-10" : "-right-full"}`}>
             <span className='font-inter capitalize text-base'>Submit successfully</span>

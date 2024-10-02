@@ -2,7 +2,7 @@ import './App.css';
 import AmazingFeatures from './components/AmazingFeatures';
 import BiggestFigures from './components/BiggestFigures';
 import Footer from './components/Footer';
-import Header from './components/Header';
+// 
 import Healthcare from './components/Healthcare';
 import Hero from './components/Hero';
 import MotionTracking from './components/MotionTracking';
@@ -14,7 +14,6 @@ import YourWorkout from './components/YourWorkout';
 function App() {
   return (
     <>
-      <Header />
       <Hero />
       <YourWorkout />
       <AmazingFeatures />
