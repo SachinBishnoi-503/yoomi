@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import CommonButton from './common/CommonButton'
 import newslatterlogo from '../assets/images/webp/newslatter-card.webp'
 import newslatterman from '../assets/images/webp/newslatter-card-man.webp'
-import newslatterimagecorner from '../assets/images/webp/platform-card-image.webp'
+import newslatterimagecorner from '../assets/images/webp/newsletter-corner-image.webp'
 
 
 const Newsletter = () => {
@@ -17,13 +17,13 @@ const Newsletter = () => {
     }, 3000);
   }
   return (
-    <div>
+    <div className='z-20 relative'>
       <div className='container'>
         <div className='w-full bg-deep-blue rounded-[32px] border border-deep-blue min-h-[379px] relative'>
           <div className='flex flex-col items-start  p-[79px_618px__78px_84px] '>
             <img src={newslatterlogo} alt="newslatter-image-not-found" />
-            <p className='font-normal text-3xl leading-custom-sm text-white'>Sign Up to Join <span className='font-semibold'>Our Newsletter</span></p>
-            <form id='fromEmail' onSubmit={handleSubmit} method="get" className='max-w-[428px] w-full p-1.5 bg-white rounded flex justify-between items-center mt-7 lg:mt-14 shadow-3xl'>
+            <p className='font-normal text-3xl leading-custom-sm text-white pt-[28px]'>Sign Up to Join <span className='font-semibold'>Our Newsletter</span></p>
+            <form id='fromEmail' onSubmit={handleSubmit} method="get" className='max-w-[428px] w-full p-1.5 bg-white rounded flex justify-between items-center mt-[49px] shadow-3xl'>
               <input
                 type="email"
                 placeholder='Enter Your Email'
