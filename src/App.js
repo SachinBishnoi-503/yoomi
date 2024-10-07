@@ -14,11 +14,11 @@ function App() {
   return (
     <>
       {/* <Hero />
-      <YourWorkout /> */}
-      {/* <AmazingFeatures /> */}
-      <MotionTracking />
-      {/* <ReportingAnalytics />
-      <OurPlatform />
+      <YourWorkout />
+      <AmazingFeatures />
+      <MotionTracking /> */}
+      <ReportingAnalytics />
+      {/* <OurPlatform />
       <Healthcare />
       <BiggestFigures />
       <Newsletter />
