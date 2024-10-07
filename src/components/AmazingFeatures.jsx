@@ -59,7 +59,7 @@ const AmazingFeatures = () => {
             >
               {[sliderimage1, sliderimage2, sliderimage1, sliderimage2].map((image, index) => (
                 <SwiperSlide key={index}>
-                  <img src={image} alt={`Slider image ${index + 1}`} className='max-w-[460px] w-full lg:min-h-[331px] max-lg:h-[200px] h-full' />
+                  <img src={image} alt={`Slider image ${index + 1}`} className='max-w-[460px] w-full md:min-h-[331px] max-md:h-[200px] h-full' />
                 </SwiperSlide>
               ))}
             </Swiper>

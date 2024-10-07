@@ -10,7 +10,7 @@ const MotionTracking = () => {
   return (
     <div className='relative'>
       <div className='container'>
-        <div className='w-full p-[57px_28px_58px_33px] shadow-4xl rounded-[32px] flex justify-between items-center'>
+        <div className='w-full lg:p-[57px_28px_58px_33px] lg:shadow-4xl rounded-[32px] max-lg:flex-col lg:flex lg:justify-between lg:items-center'>
           <div className='w-[552px] h-[329px] relative '>
             <img src={workout1} alt="images-not-found" className='' />
             <img src={workout3} alt="images-not-found" className='absolute top-[-45px] left-[-30px]' />

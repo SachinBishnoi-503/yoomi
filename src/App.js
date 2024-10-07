@@ -15,9 +15,9 @@ function App() {
     <>
       {/* <Hero />
       <YourWorkout /> */}
-      <AmazingFeatures />
-      {/* <MotionTracking />
-      <ReportingAnalytics />
+      {/* <AmazingFeatures /> */}
+      <MotionTracking />
+      {/* <ReportingAnalytics />
       <OurPlatform />
       <Healthcare />
       <BiggestFigures />
