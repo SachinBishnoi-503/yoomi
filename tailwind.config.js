@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-image': "url('./assets/images/webp/hero-layer-image.webp')",
+        'hero-image': "url('./assets/images/webp/hero-layer.webp')",
       },
       fontFamily: {
         'inter': "'Inter', sans-serif",
@@ -47,6 +47,7 @@ module.exports = {
         'custom-xl': "40px",
         'custom-2xl': "52px",
         'custom-3xl': "60px",
+        'media-lg':"28px",
       },
       lineHeight: {
         'custom-sm': "32px",

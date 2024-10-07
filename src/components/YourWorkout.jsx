@@ -3,7 +3,7 @@ import Workout from '../assets/images/webp/workout-image.webp'
  
 const YourWorkout = () => {
   return (
-    <div className='mt-[-166px]'>
+    <div className='mt-[-166px] relative z-[2]'>
       <div className='container'>
         <div className='flex justify-center items-center'>
           <img src={Workout} alt="workout-image-not-found" />
